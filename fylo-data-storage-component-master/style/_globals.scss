@@ -1,0 +1,19 @@
+html{
+    font-size: 100%; //to let user easily zoom
+    box-sizing: border-box; //padding and borders will be included in the final width and height
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;    height: 100vh;  
+    line-height: 1.3;
+    background-color: hsl(210, 46%, 95%);
+    display: flex;
+    align-items: center;
+}
